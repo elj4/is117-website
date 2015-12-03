@@ -101,6 +101,20 @@ textarea {
  
 }
 
+#content{
+   background-image: url(../img/kitchenjob.pmg);
+   height: 400px;
+   background-repeat: no-repeat;
+
+}
+#left_content{
+   width:593px;
+}
+
+#right_content{
+   text-align: center;
+   line-height: 400px;
+}
 .float_left{
    float:left;
 }
