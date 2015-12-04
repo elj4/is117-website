@@ -7,6 +7,9 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+body{
+   background-color: #7F5C5B;
+}
 
 html {
     color: #222;
@@ -102,7 +105,7 @@ textarea {
 }
 
 #content{
-   background-image: url(../img/kitchenjob.pmg);
+   background-image: url(../img/kitchenjob.png);
    height: 400px;
    background-repeat: no-repeat;
 
@@ -137,9 +140,9 @@ textarea {
 
 }
 
-#content{
-   background-color: blue;
-}
+//#content{
+//   background-color: blue;
+//}
 
 #footer{
    background-color: green;
