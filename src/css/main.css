@@ -113,7 +113,7 @@ textarea {
 
 #content{
    background-image: url(../img/kitchenjob.png);
-   height: 500px;
+   height: 450px;
    background-repeat: no-repeat;
 
 }
@@ -124,8 +124,10 @@ textarea {
 }
 
 #right_content{
-   text-align: right;
+   text-align: center;
    line-height: 400px;
+   width:340px;
+   height:450px;
 }
 .float_left{
    float:left;
@@ -152,6 +154,18 @@ textarea {
    font-size: 45px;
    padding-top: 25px;
 }
+.btn{
+ background-color: #FFB7B6;
+ border: 1px solid red;
+ color: white;
+ padding :8px 22px;
+ text-align: center;
+ text-decoration: none;
+ display:inline-block;
+ font-size:16px;
+ cursor: pointer;
+
+}
 .mbtn{
    background-color :#FFB7B6;
    border: 1px solid red;
@@ -170,16 +184,29 @@ textarea {
 //}
 
 #footer{
-   background-color: green;
+   background-color:#FFB7B6 ;
+   height: 60px;
 }
 #story{
    width: 960px;
-   background-color; gray;
+   background-color: gray;
+   color: black;
 }
 
 .callout{
    width:310px;
    padding-left: 10px;
+}
+#of1{
+   width:480px;
+
+}
+#of2{
+   width:480;
+
+}
+#stxt{
+   width:420px;
 }
 
 #callout1{
@@ -189,15 +216,63 @@ textarea {
 #callout2{
    background-color: cyan;
 }
-
+#offer1{
+   width: 480px;
+}
+#offer{
+   text-align: center;
+   background-color: #7F3635;
+   text-color: white;
+}
 #callout3{
    background-color: gray;
+   width:960px;
+}
+#testamonials{
+   width:720px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:90px;
+
+   text-align:justify;
+   -ms-text-justify: distribute-all-lines;
+   text-justify: distribute-all-lines;
+
+}
+
+#testamonials a{
+   vertical-align: top;
+   display:inline-block;
+   display:inline;
+   zoom:1;
+}
+
+.stretch{
+   width: 100%;
+   display:inline-block;
+   font-size:0;
+   line-height:0;
+}
+#comments{
+   width:920px;
+
 }
 
 ul,li{
    margin: 0px;
 }
+p{
+   font-size:20px;
 
+}
+h2{
+   text-align: center;
+   font-size: 30px;
+}
+h6{
+   text-align: center;
+   font-size:12px;
+}
 
 
 
